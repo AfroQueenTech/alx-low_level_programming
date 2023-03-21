@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 /*
  * main - Program that prints a sentence using the function puts.

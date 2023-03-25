@@ -52,7 +52,7 @@ vi 2-print_alphabet.c
 
 ```
 
-:three
+:three:
 ```
 vi 3-print_alphabets.c
 

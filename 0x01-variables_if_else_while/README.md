@@ -9,8 +9,9 @@ chmod +x *
 ```
 -----------------------------------------------
 
-### Solutions :arrow_heading_down:
+### Solutions:
 
+:zero:
 ```
 vi 0-positive_or_negative.c
 #include <stdlib.h>
@@ -37,24 +38,40 @@ int main(void)
 
         return (0);
 }
+```
 
-
+:one:
+```
 vi 1-last_digit.c
 
+```
 
+:two:
+```
 vi 2-print_alphabet.c
 
+```
 
+:three
+```
 vi 3-print_alphabets.c
 
+```
 
+:four:
+```
 vi 4-print_alphabt.c
 
+```
 
+:five:
+```
 vi 5-print_numbers.c
 
+```
 
+:six:
+```
 vi 6-print_numberz.c
-
 
 ```

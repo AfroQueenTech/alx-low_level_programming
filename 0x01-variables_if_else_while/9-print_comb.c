@@ -11,7 +11,10 @@ int main(void)
 	for (num = 0; num <= 9; num++)
 	{
 		if (num % num == 0)
-			putchar(num, ", ");
+		{
+			putchar(num);
+			putchar(", ");
+		}
 	}
 	putchar('\n');
 	return (0);

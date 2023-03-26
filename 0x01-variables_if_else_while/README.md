@@ -73,6 +73,8 @@ Program that prints the lowercase alphabet in reverse.
 
 :eight:
 
+8-print_base16.c
+
 Program that prints all the numbers of base 16 in lowercase.
 
 

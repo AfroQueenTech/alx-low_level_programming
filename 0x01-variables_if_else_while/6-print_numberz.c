@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	short num;
-	for (num = 0; num < 10; num++)
+	for (int num = 0; num < 10; num++)
 	{
 		putchar(num);
 	}

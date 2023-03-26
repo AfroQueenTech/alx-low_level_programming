@@ -155,6 +155,23 @@ int main(void)
 ```
 vi 5-print_numbers.c
 
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Return: Always 0
+ * Program that prints all single digit numbers of base ten.
+ */
+int main(void)
+{
+        int num;
+
+        for (num = 0; num < 10; num++)
+        {
+                printf("%d", num);
+        }
+        putchar('\n');
+        return (0);
+}
 ```
 
 :six:

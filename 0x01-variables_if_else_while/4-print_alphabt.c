@@ -8,9 +8,10 @@ int main(void)
 {
 	char letter;
 
-	for (letter = 'a'; letter <= 'd' && 'e' < letter < 'q' &&
-			letter >= 'r'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
+		if (letter == 'e' or letter == 'q')
+			break
 		putchar(letter);
 	}
 	putchar('\n');

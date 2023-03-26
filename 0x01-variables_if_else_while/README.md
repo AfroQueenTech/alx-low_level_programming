@@ -78,6 +78,23 @@ int main(void)
 ```
 vi 2-print_alphabet.c
 
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Return: Always 0
+ * Program that prints the alphabet in lowercase.
+ */
+int main(void)
+{
+        char letter;
+
+        for (letter = 'a'; letter <= 'z'; letter++)
+        {
+                putchar(letter);
+        }
+        putchar('\n');
+        return (0);
+}
 ```
 
 :three:

@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	for (unsigned char num = 0; num < 10; num++)
+	unisgned char num;
+	for (num = 0; num < 10; num++)
 	{
 		putchar(num);
 	}

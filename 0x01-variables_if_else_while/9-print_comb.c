@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int nums;
+	int num;
 
-	for (nums = 0; nums <= 9, num++)
+	for (num = 0; num <= 9, num++)
 	{
 		putchar((num % num), ", ");
 	}

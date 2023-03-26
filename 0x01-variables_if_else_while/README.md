@@ -11,190 +11,73 @@ chmod +x *
 ```
 -----------------------------------------------
 
-### Solutions:
+### Exercices:
 
 :zero:
-```
-vi 0-positive_or_negative.c
 
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0
- * Program that assigns a random number to a variable n.
- * betty style doc for function main goes there
- */
-int main(void)
-{
-        int n;
+0-positive_or_negative.c
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        if (n > 0)
-                printf("%d is positive\n", n);
-        else if (n == 0)
-                printf("%d is zero\n", n);
-        else
-                printf("%d is negative\n", n);
+Program that assigns a random number to a variable n.
 
-        return (0);
-}
-```
 
 :one:
-```
-vi 1-last_digit.c
 
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0
- * Program that assigns a random number to a variable n
- * and prints the last digit of that number.
- */
-int main(void)
-{
-        int n, lastDigit;
+1-last_digit.c
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        lastDigit = n % 10;
-        if (lastDigit > 5)
-                printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
-        else if (lastDigit == 0)
-                printf("Last digit of %d is %d and is 0\n", n, lastDigit);
-        else
-                printf("Last digit of %d is %d and is less than 6 and not 0\n",
-                                n, lastDigit);
-        return (0);
-}
-```
+Program that assigns a random number to a variable n
+and prints the last digit of that number.
+
 
 :two:
-```
-vi 2-print_alphabet.c
 
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0
- * Program that prints the alphabet in lowercase.
- */
-int main(void)
-{
-        char letter;
+2-print_alphabet.c
 
-        for (letter = 'a'; letter <= 'z'; letter++)
-        {
-                putchar(letter);
-        }
-        putchar('\n');
-        return (0);
-}
-```
+Program that prints the alphabet in lowercase.
+
 
 :three:
-```
-vi 3-print_alphabets.c
 
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0
- * Program that prints the alphabet in lowercase and UPPERCASE.
- */
-int main(void)
-{
-        char lowercase;
-        char uppercase;
+3-print_alphabets.c
 
-        for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
-        {
-                putchar(lowercase);
-        }
-        for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
-        {
-                putchar(uppercase);
-        }
-        putchar('\n');
-        return (0);
-}
-```
+Program that prints the alphabet in lowercase and UPPERCASE.
+
 
 :four:
-```
-vi 4-print_alphabt.c
 
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0
- * Program that prints the alphabet in lowercase except letters e and q.
- */
-int main(void)
-{
-        char letter;
+4-print_alphabt.c
 
-        for (letter = 'a'; letter <= 'z'; letter++)
-        {
-                if (letter == 'e' || letter == 'q')
-                        continue;
-                putchar(letter);
-        }
-        putchar('\n');
-        return (0);
-}
+Program that prints the alphabet in lowercase except letters e and q.
 
-```
 
 :five:
-```
-vi 5-print_numbers.c
 
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0
- * Program that prints all single digit numbers of base ten.
- */
-int main(void)
-{
-        int num;
+5-print_numbers.c
 
-        for (num = 0; num < 10; num++)
-        {
-                printf("%d", num);
-        }
-        putchar('\n');
-        return (0);
-}
-```
+Program that prints all single digit numbers of base ten.
+
 
 :six:
-```
-vi 6-print_numberz.c
 
-#include <stdio.h>
-/**
- * main - Entry point
- * Return: Always 0
- * Program that prints all single digit numbers of base ten
- * with putchar only, but without char.
- */
-int main(void)
-{
-        int num;
+6-print_numberz.c
 
-        for (num = 0; num < 10; num++)
-        {
-                putchar(num + 48);
-        }
-        putchar('\n');
-        return (0);
-}
+Program that prints all single digit numbers of base ten
+with putchar only, but without char.
 
-```
+
+:seven:
+
+7-print_tebahpla.c
+
+Program that prints the lowercase alphabet in reverse.
+
+
+:eight:
+
+Program that prints all the numbers of base 16 in lowercase.
+
+
+:nine:
+
+9-print_comb.c
+
+Program that prints all possible combinations of single-digit numbers.
